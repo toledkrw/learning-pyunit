@@ -40,7 +40,7 @@ Como esse módulo vem por padrão nas instalações Python desde a versão 2.1, 
 
 No *PyUnit*, casos de teste são representados pela classe `TestCase`, disponível no módulo `unittest`. Para criar seu próprio caso de teste, você deve escrever subclasses à partir da `TestCase`.
 
-Dentre os vários métodos disponíveis, podemos utilizar os métodos setUp() e tearDown(). Sendo o setUp() para ser executado antes (para preparar) e o tearDown() depois do teste (para tratar alguma ocorrência).
+Dentre os vários métodos disponíveis, podemos utilizar os métodos  `setUp()` e `tearDown()`. Sendo o `setUp()` para ser executado antes (para preparar) e o `tearDown()` depois do teste (para tratar alguma ocorrência).
 
 Dentro desta camada de teste podemos utilizar asserções, para verificar a veracidade do código, presentes nos métodos: `assertEqual()`, `assertNotEqual()`, `assertTrue()`, dentre outros.
 
